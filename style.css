@@ -38,13 +38,13 @@ div.baner{
     animation: subir 3s;
 }
 .baner h1{
-    font-size: 4vw;
+    font-size: 6vw;
     font-weight: 500;
     text-shadow: .3rem .4rem 2px rgba(0,0,0,0.7);
     padding-bottom: 2rem;
 }
 .baner p{
-    font-size: 3vw;
+    font-size: 5vw;
     text-shadow: .3rem .4rem 2px rgba(0,0,0,0.7);
     padding-bottom: 2rem;
 }
