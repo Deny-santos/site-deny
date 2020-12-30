@@ -95,13 +95,13 @@ div.baner{/**/
 .sidebar.show-menu{
     right: 0;
 }
-.sidebar{/*menu q aparece ao clicar no burguer posÃ§ao fix tbm*/
-    width: 25vw;
+.sidebar{/*menu q aparece ao clicar no burguer posçao fix tbm*/
+    width: max(270px, 2vw);
     height: 100vh;
     background-color: white;
     position: fixed;
     top: 0;
-    right: -22rem;
+    right: min(-310px, 450vw);
     transition: all 1s;
 }
 .menu{
@@ -116,7 +116,7 @@ div.baner{/**/
 .menu-link{/*cada li no link da ancora*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    font-size: 2rem;
+    font-size: max(28px, 1vw);
     transition: color 0.7s;
 }
 .menu-link:hover{
