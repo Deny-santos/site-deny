@@ -101,9 +101,10 @@ div.baner{/**/
     right: 0;
 }
 .sidebar{/*menu q aparece ao clicar no burguer posçao fix tbm*/
+    z-index: 100;
     width: max(270px, 2vw);
     height: 100vh;
-    background-color: white;
+    background-color: rgb(206, 180, 180);
     position: fixed;
     top: 0;
     right: min(-310px, 450vw);
